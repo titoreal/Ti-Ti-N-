@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <!-- Título del Juego -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ti-Ti-N"
+            android:textSize="48sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/luckiestguy_regular"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+
+    <!-- Tablero del Juego -->
+        <TableLayout
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="4pt">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu1"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu2"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu3"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="4pt">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu4"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu5"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu6"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="4pt">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu7"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu8"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bu9"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_marginStart="3pt"
+                    android:layout_marginTop="3pt"
+                    android:background="@color/lightblue_mine"
+                    android:onClick="buClick"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- Selección de Modo de Juego -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <RadioButton
+                android:id="@+id/twoPlayers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Jugadores"
+                android:checked="true"
+                android:layout_marginEnd="16dp"/>
+
+            <RadioButton
+                android:id="@+id/vsComputer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contra Dispositivo"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>
